@@ -15,6 +15,11 @@ body {
 .mwlogo {
     position:relative;
     bottom:0.2em;
+    background-image: url("images/MW.png");
+}
+
+.mwlogo:hover {
+    background-image: url("images/MW-hover.png");
 }
 
 .footer-blurb h3 {
