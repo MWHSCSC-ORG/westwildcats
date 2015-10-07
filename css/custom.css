@@ -14,12 +14,20 @@ body {
 
 .mwlogo {
     position:relative;
+    height:1.5em;
+    width:1.5em;
     bottom:0.2em;
-    background-image: url("images/MW.png");
+    background-image: url("../images/MW.png");
+    background-repeat:no-repeat;
 }
 
 .mwlogo:hover {
-    background-image: url("images/MW-hover.png");
+    position:relative;
+    height:1.5em;
+    width:1.5em;
+    bottom:0.2em;
+    background-image: url("../images/MW-hover.png");
+    background-repeat:no-repeat;
 }
 
 .footer-blurb h3 {
