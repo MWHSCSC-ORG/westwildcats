@@ -13,13 +13,13 @@ body {
 }
 
 .mwlogo {
-	background: url('../images/MW-sprite.png') no-repeat 0 0;
 	width: 25px;
 	height: 17px;
+	fill: #9D9D9D;
 }
 
 .mwlogo:hover {
-	background-position: 0 -18px;
+	fill: #FFFFFF;
 }
 
 .footer-blurb h3 {
