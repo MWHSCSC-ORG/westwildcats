@@ -13,21 +13,13 @@ body {
 }
 
 .mwlogo {
-    position:relative;
-    height:1.5em;
-    width:1.5em;
-    bottom:0.2em;
-    background-image: url("../images/MW.png");
-    background-repeat:no-repeat;
+	background: url('../images/MW-sprite.png') no-repeat 0 0;
+	width: 25px;
+	height: 17px;
 }
 
 .mwlogo:hover {
-    position:relative;
-    height:1.5em;
-    width:1.5em;
-    bottom:0.2em;
-    background-image: url("../images/MW-hover.png");
-    background-repeat:no-repeat;
+	background-position: 0 -18px;
 }
 
 .footer-blurb h3 {
