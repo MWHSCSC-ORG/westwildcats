@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Account</title>
+    <title>Register</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -57,34 +57,61 @@
         </header>
         <article id="main">
             <header class="special container">
-                <span class="icon fa-sign-in"></span>
-                <h2>Login to your <strong>Computer Science Club</strong> account.</h2>
+                <span class="icon fa-user-plus"></span>
+                <h2>Register for a <strong>Computer Science Club</strong> account.</h2>
+                <p>Note: while your username will be your school username, do not use your school password.</p>
             </header>
             <section class="wrapper style4 special container 75%">
                 <div class="content">
                     <form>
                         <div class="row 50%">
                             <div class="12u">
-                                <input type="text" name="username" placeholder="Username" />
+                                <input type="text" name="first" placeholder="First Name" />
                             </div>
                         </div>
+                        <div class="row 50%">
+                            <div class="12u">
+                                <input type="text" name="last" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="row 50%">
+                            <div class="12u">
+                                <input type="email" name="first" placeholder="School Email" />
+                            </div>
+                        </div>
+                        
                          <div class="row 50%">
                             <div class="12u">
                                 <input type="password" name="password" placeholder="Password" />
                             </div>
                         </div>
-                        <br>
+                        <div class="row 50%">
+                            <div class="12u">
+                                <input type="password" name="retype" placeholder="Re-type Password" />
+                            </div>
+                        </div>
+                        <div class="row 50%">
+                            <div class="12u">
+                                <p>Grade Level:&nbsp;&nbsp;
+                                    <select>
+                                        <option>Freshman</option>
+                                        <option>Sophomore</option>
+                                        <option>Junior</option>
+                                        <option>Senior</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="12u">
                                 <ul class="buttons">
                                     <li>
-                                        <input type="submit" class="special" value="Send Message" />
+                                        <input type="submit" class="special" value="Register" />
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </form>
-                    <p>Don't have an account? <a href="register.php">Register here.</a></p>
                 </div>
             </section>
         </article>
