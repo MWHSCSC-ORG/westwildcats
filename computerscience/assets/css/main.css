@@ -17,6 +17,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
     line-height: 1;
 }
+.constitution {
+    text-align:center;
+}
 #youtube-icon {
     background-color:#db6b67;
     color:#ffffff;
@@ -1628,6 +1631,7 @@ body {
 		font-size: 0.8em;
 		position: relative;
 		top: -0.5em;
+        text-transform: lowercase;
 	}
 
 	hr {
